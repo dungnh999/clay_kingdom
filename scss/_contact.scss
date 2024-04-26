@@ -1,0 +1,34 @@
+.contact{
+    position: relative;
+    &-main{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      padding: 100px 190px;
+    }
+  &-caption {
+      color: $gray-black;
+      padding: 0 286px;
+  }
+  &-social{
+    display: flex;
+    gap: 39px;
+  }
+  &-vector{
+     &-item{
+       &-1{
+         position: absolute;
+         height: 534px;
+         top: 0;
+         right: 0;
+       }
+       &-2{
+         position: absolute;
+         left: 0;
+         height: 554px;
+         top: -250px;
+       }
+     }
+  }
+}

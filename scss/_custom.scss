@@ -1,0 +1,37 @@
+.custom{
+  background: url('../images/custom/img.png') lightgray 50% / cover no-repeat;
+  height: 724px;
+  position: relative;
+  .container{
+    height: 100%;
+  }
+  &-main{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    padding: 0 375px;
+    gap: 30px;
+  }
+  &-caption{
+    padding: 0 86px;
+  }
+  &-group-vector{
+    &-item{
+      position: absolute;
+      &-1{
+        top: 128px;
+        height: 243.863px;
+      }
+      &-2{
+        top: 47px;
+        right: 0;
+        height: 316px;
+      }
+    }
+  }
+}
+
+

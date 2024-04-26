@@ -1,0 +1,45 @@
+.collection{
+  padding-top: 135px;
+  background: $background;
+  padding-bottom: 90px;
+  &-sub{
+    color: $gray-black;
+    text-align: center;
+  }
+  &-heading{
+    text-align: center;
+    padding-top: 30px;
+  }
+  &-list{
+    color: aquamarine;
+    display: grid;  /* Kích hoạt CSS Grid */
+    grid-template-columns: repeat(4, 1fr);  /* 4 cột */
+    gap: 40px;
+    padding-top: 75px;
+    &-item{
+      flex: 0 0 25%;
+      overflow: hidden;
+      &-price{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        &-name{
+          font-family: $primary-font;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 30px;
+          color: $primary-color;
+        }
+        &-number{
+          font-family: $primary-font;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 30px;
+          color: $gray-black;
+        }
+      }
+    }
+  }
+}
