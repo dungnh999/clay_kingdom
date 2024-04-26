@@ -1,0 +1,27 @@
+.blog{
+    &-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-sub{
+            color: $black;
+        }
+    }
+    &-list{
+        display: flex;
+        padding-top: 30px;
+    }
+    &-item{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        &-content{
+            &-time{
+                font-size: 18px;
+                font-weight: 400;
+                color: $gray-black;
+            }
+        }
+    }
+   
+}

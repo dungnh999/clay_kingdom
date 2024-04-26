@@ -1,0 +1,47 @@
+.workshops{
+    padding-top: 11.56px;
+    padding-bottom: 167px;
+    position: relative;
+    &-main{
+        display: flex;
+        gap: 100px;
+        align-items: center;
+        div{
+            flex: 1;
+        }
+    }
+    &-sub{
+        color: $gray-black;
+    }
+    &-caption{
+        color: $gray-black;
+    }
+    &-group-image{
+        display: flex;
+        gap: 30px;
+    }
+    &-content{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        &-button{
+            background: $gray;
+        }
+        &-list{
+            ul{
+                li{
+                    font-family: $primary-font;
+                    color: $black;
+                    line-height: 26px;
+                    font-weight: 600;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    &-vector{
+        position: absolute;
+        left: 79px;
+        top: 480px;
+    }
+}

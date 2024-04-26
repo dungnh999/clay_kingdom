@@ -347,4 +347,71 @@ body {
   top: -250px;
 }
 
+.workshops {
+  padding-top: 11.56px;
+  padding-bottom: 167px;
+  position: relative;
+}
+.workshops-main {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+.workshops-main div {
+  flex: 1;
+}
+.workshops-sub {
+  color: #333333;
+}
+.workshops-caption {
+  color: #333333;
+}
+.workshops-group-image {
+  display: flex;
+  gap: 30px;
+}
+.workshops-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.workshops-content-button {
+  background: #E0E2E4;
+}
+.workshops-content-list ul li {
+  font-family: "Montserrat", sans-serif;
+  color: #1C1A1B;
+  line-height: 26px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.workshops-vector {
+  position: absolute;
+  left: 79px;
+  top: 480px;
+}
+
+.blog-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog-content-sub {
+  color: #1C1A1B;
+}
+.blog-list {
+  display: flex;
+  padding-top: 30px;
+}
+.blog-item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.blog-item-content-time {
+  font-size: 18px;
+  font-weight: 400;
+  color: #333333;
+}
+
 /*# sourceMappingURL=app.css.map */
