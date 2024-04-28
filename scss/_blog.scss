@@ -1,4 +1,5 @@
 .blog{
+    padding-bottom: 228px;
     &-content{
         display: flex;
         justify-content: space-between;
@@ -10,18 +11,37 @@
     &-list{
         display: flex;
         padding-top: 30px;
+        gap: 100px;
     }
     &-item{
         display: flex;
         flex-direction: column;
         gap: 24px;
         &-content{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            color: $gray-black;
             &-time{
                 font-size: 18px;
                 font-weight: 400;
+                line-height: 30px;
+            }
+            &-name{
+                font-weight: 600;
+                font-size: 24px;
+                font-family: $primary-font;
+                line-height: 30px;
+            }
+            &-link{
+                font-size: 18px;
+                font-family: $primary-font;
+                font-weight: 400;
                 color: $gray-black;
+                line-height: 30px;
             }
         }
+       
     }
    
 }
